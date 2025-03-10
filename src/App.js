@@ -24,7 +24,7 @@ function Sidebar({ darkMode }) {
 
 function App() {
   const [user, setUser] = useState(() => {
-    const savedSettings = JSON.parse(localStorage.getItem("userSettings")) || { name: "Guest User", settings: { darkMode: false } };
+    const savedSettings = JSON.parse(localStorage.getItem("userSettings")) || { name: "FERRERAS,ARTHUR", settings: { darkMode: false } };
     return savedSettings;
   });
 
